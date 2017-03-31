@@ -1,0 +1,10 @@
+>>\\go to working directory
+>>git init  \\creat a new git repository
+>>git clone /path/..../    \\create a working copy of a local repository
+>>git add <filename>
+>>git commit -m "Commit message"
+>>git commit   \\enter commit interface, type in comments,press esc, :wq
+>>git status
+>>git log
+>>git remote add origin <server>
+>>git push origin master
