@@ -1,0 +1,24 @@
+class apples{
+  public static void main(String[] args){
+    tuna tunaObject = new tuna("Kelsey");
+    tuna tunaObject2 = new tuna("Nicole");
+    tunaObject.saying();
+    tunaObject2.saying();
+  }
+}
+
+public class tuna{
+  private String girlName;
+  public tuna(String name){
+    girlName=name;
+  }
+  public void setName(){
+    girlName = name;
+  }
+  public String getName(){
+    return girlName;
+  }
+  public void saying(){
+    System.out.printf("Your first gf was %s\n", getName());
+  }
+}
