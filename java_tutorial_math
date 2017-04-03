@@ -1,0 +1,7 @@
+Math.pow(a,b)   \\a to the power of b
+Math.abs(a)      \\absolute value of a
+Math.ceil(a)     \\round up   7.4 -->8.0
+Math.floor(a)     \\round down  7.8-->7.0
+Math.max(a,b,c,d)  \\maximum
+Math.min(a,b,c,d)   \\minimum
+Math.sqrt(a)         \\squareroot  9-->3
