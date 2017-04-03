@@ -4,6 +4,9 @@ class apples{
     System.out.println(tunaObject.toMilitary());
     tunaObject.setTime(13,27,6);
     System.out.println(tunaObject.toMilitary());
+    System.out.println(tunaObject.toString());
+    
+    tunaObject.setTime(13, 27, 6);
   }
 }
 
@@ -20,6 +23,9 @@ public class tuna{
   }
   public String toMilitary(){
     return String.format("%02d:%02d:%02d",hour,minute,second);
+  }
+  public String toString(){
+    return String.format("%d:%02d:%02d %s", ((hour==0||hour==12)?12:hour%12, minute, second, (hour<12?) "AM":"PM"));
   }
 }
 
