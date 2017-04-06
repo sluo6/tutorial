@@ -8,3 +8,17 @@
 >>git log
 >>git remote add origin <server>
 >>git push origin master
+>>git show 9f955d85359fc8e4504d7220f13fad34f8f2c62b   \\see details of a certain commit
+>>subl ./tofu/kung_pao_tofu.txt   \\Changes made to kung_pao_tofu.txt are not saved in the repository
+>>git checkout 9f955d85359fc8e4504d7220f13fad34f8f2c62b ./recipes/tofu    
+\\return to previous version. This command does not change commit history. Make sure to specify a file or directory when use checkout.
+
+>>git branch [new-branch-name]  \\create a branch off of your current branch
+>>git checkout [destination-branch]  \\switch from one branch to another
+>>git checkout -b [new-branch-name]   \\create a new branch and switch to the new branch
+>>git branch -d [branch-to-delete]    \\delete the branch
+>>git branch -v   \\show current branch
+
+>>git checkout master
+>>git merge fixing-ai-heuristics    \\merging master branch with fixing-ai-heuristics branch
+
