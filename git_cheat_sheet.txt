@@ -22,3 +22,5 @@
 >>git checkout master
 >>git merge fixing-ai-heuristics    \\merging master branch with fixing-ai-heuristics branch
 
+>>git config --global user.email "you@example.com"
+>>git config --global user.name "Your Name"
